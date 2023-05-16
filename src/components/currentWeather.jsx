@@ -1,4 +1,6 @@
 import React from "react";
+import { TbTemperatureCelsius } from "react-icons/tb";
+import { TbTemperatureFahrenheit } from "react-icons/tb";
 
 function CurrentWeather(props) {
   return (
@@ -11,27 +13,39 @@ function CurrentWeather(props) {
         <div className="side">
           <h3>Min</h3>
           <p>
-            {props.temperatureUnit === "°C" ? props.tempMinC : props.tempMinF}{" "}
-            {props.temperatureUnit}
+            {props.temperatureUnit === "°C" ? props.tempMinC : props.tempMinF}
+            {props.temperatureUnit === "°C" ? (
+              <TbTemperatureCelsius />
+            ) : (
+              <TbTemperatureFahrenheit />
+            )}
           </p>
         </div>
-        <div>
+        <div id="main">
           <h2>Current</h2>
-          <p id="main">
-            {props.temperatureUnit === "°C" ? props.tempC : props.tempF}{" "}
-            {props.temperatureUnit}
+          <p>
+            {props.temperatureUnit === "°C" ? props.tempC : props.tempF}
+            {props.temperatureUnit === "°C" ? (
+              <TbTemperatureCelsius />
+            ) : (
+              <TbTemperatureFahrenheit />
+            )}
           </p>
         </div>
         <div className="side">
           <h3>Max</h3>
 
           <p>
-            {props.temperatureUnit === "°C" ? props.tempMaxC : props.tempMaxF}{" "}
-            {props.temperatureUnit}
+            {props.temperatureUnit === "°C" ? props.tempMaxC : props.tempMaxF}
+            {props.temperatureUnit === "°C" ? (
+              <TbTemperatureCelsius />
+            ) : (
+              <TbTemperatureFahrenheit />
+            )}
           </p>
         </div>
       </div>
-      <h4>
+      <h4 id="metricss">
         <span
           className={props.celsiusClass}
           onClick={props.toggleTemperatureUnitC}
