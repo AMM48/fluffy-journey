@@ -149,7 +149,7 @@ p {
 hr {
   width: 100%;
 }
-.hourly--data:nth-child(9n), .hourly--data:last-child {
+.hourly--data:nth-child(5n), .hourly--data:last-child {
   border-right: none;
 }
 #search {
