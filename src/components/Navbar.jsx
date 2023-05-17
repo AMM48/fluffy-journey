@@ -5,7 +5,7 @@ function Navbar() {
     <nav>
       <ul>
         <li>
-          <NavLink exact to="/">
+          <NavLink exact to="/fluffy-journey">
             Weather
           </NavLink>
         </li>
