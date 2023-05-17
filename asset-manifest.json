@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/fluffy-journey/static/css/main.631ad112.css",
-    "main.js": "/fluffy-journey/static/js/main.fcc92006.js",
-    "static/media/close-up-view-clouds_181624-13889.png": "/fluffy-journey/static/media/close-up-view-clouds_181624-13889.0edbc8e052baed73e43f.png",
+    "main.css": "/fluffy-journey/static/css/main.5fdf9831.css",
+    "main.js": "/fluffy-journey/static/js/main.1f5a3e85.js",
     "index.html": "/fluffy-journey/index.html",
-    "main.631ad112.css.map": "/fluffy-journey/static/css/main.631ad112.css.map",
-    "main.fcc92006.js.map": "/fluffy-journey/static/js/main.fcc92006.js.map"
+    "main.5fdf9831.css.map": "/fluffy-journey/static/css/main.5fdf9831.css.map",
+    "main.1f5a3e85.js.map": "/fluffy-journey/static/js/main.1f5a3e85.js.map"
   },
   "entrypoints": [
-    "static/css/main.631ad112.css",
-    "static/js/main.fcc92006.js"
+    "static/css/main.5fdf9831.css",
+    "static/js/main.1f5a3e85.js"
   ]
 }
