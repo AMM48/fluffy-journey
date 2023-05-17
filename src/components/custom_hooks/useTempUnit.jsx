@@ -1,8 +1,12 @@
 import React from "react";
 
 function useTempUnit(props) {
-  const [isCelsius, setIsCelsius] = React.useState(true);
-  const [temperatureUnit, setTemperatureUnit] = React.useState("°C");
+  const [isCelsius, setIsCelsius] = React.useState(
+    localStorage.getItem("unit") === "°C" ? true : false
+  );
+  const [temperatureUnit, setTemperatureUnit] = React.useState(
+    localStorage.getItem("unit") ? localStorage.getItem("unit") : "°C"
+  );
   const toggleTemperatureUnitC = () => {
     if (!isCelsius) {
       setIsCelsius(!isCelsius);

@@ -17,6 +17,7 @@ function useForecast(props) {
         tempUnit: props.temperatureUnit,
       }));
       setForecastData(data);
+      localStorage.setItem("unit", props.temperatureUnit);
     } catch (e) {}
   };
 
