@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/fluffy-journey" element={<App />} />
+      <Route exact path="/fluffy-journey" element={<App />} />
       <Route path="/about" element={<About />} />
     </Routes>
   </BrowserRouter>
