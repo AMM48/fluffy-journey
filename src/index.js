@@ -6,10 +6,10 @@ import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <HashRouter basename="fluffy-journey">
+  <BrowserRouter>
     <Routes>
       <Route path="/fluffy-journey" element={<App />} />
-      <Route path="/fluffy-journey/about" element={<About />} />
+      <Route path="/about" element={<About />} />
     </Routes>
-  </HashRouter>
+  </BrowserRouter>
 );

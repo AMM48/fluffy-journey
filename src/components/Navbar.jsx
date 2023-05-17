@@ -10,7 +10,7 @@ function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink exact to="/fluffy-journey/about">
+          <NavLink exact to="/about">
             About Us
           </NavLink>
         </li>
