@@ -9,7 +9,6 @@ import { BsSearch } from "react-icons/bs";
 function App() {
   const { data, handleChange, fetchData } = useWeatherData();
   const tempUnitObj = useTempUnit(data);
-  console.log(data);
   return (
     <div className="App flex">
       <Navbar />

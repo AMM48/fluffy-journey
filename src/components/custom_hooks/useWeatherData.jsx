@@ -2,7 +2,9 @@ import React from "react";
 
 function useWeatherData() {
   const [data, setData] = React.useState({
-    name: "Jeddah",
+    name: localStorage.getItem("city")
+      ? localStorage.getItem("city")
+      : "Jeddah",
     country: "(SA)",
     tempC: null,
     tempF: null,
@@ -50,6 +52,7 @@ function useWeatherData() {
           forecastData: res.forecast.forecastday,
           isDay: res.current.is_day,
         });
+        localStorage.setItem("city", res.location.name);
       }
     } catch (e) {
       alert("Please enter a valid City name");

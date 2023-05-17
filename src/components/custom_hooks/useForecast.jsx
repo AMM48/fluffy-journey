@@ -3,7 +3,7 @@ function useForecast(props) {
   const [forecastData, setForecastData] = useState([]);
   useEffect(() => {
     fetchData();
-  }, [props.name, props.temperatureUnit]);
+  });
   const fetchData = async () => {
     try {
       const data = props.forecastData.slice(0, 8).map((item) => ({
