@@ -11,9 +11,13 @@ html {
 }
 
 body {
-  background: url('../gorgeous-clouds-background-with-blue-sky-design_1017-25501.png') repeat-x center/cover;
+  background: url('../gorgeous-clouds-background-with-blue-sky-design_1017-25501.png') no-repeat center/cover;
   width: 100%;
   font-family: "Poppins", "Helvetica";
+}
+
+.img {
+  background: url('../nigh-clouds.png') no-repeat center/cover;
 }
 
 body::before {
@@ -39,7 +43,7 @@ body::before {
 
 .container {
   /* border-radius: 2rem; */
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)); */
   /* backdrop-filter: blur(5px); */
   /* box-shadow: 0 0 10px rgb(255, 255, 255); */
   padding: 3rem;

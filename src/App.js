@@ -8,10 +8,10 @@ import { BsSearch } from "react-icons/bs";
 function App() {
   const { data, handleChange, fetchData } = useWeatherData();
   const tempUnitObj = useTempUnit(data);
-
+  console.log(data);
   return (
     <div className="App flex">
-      <div className="container">
+      <div className={data.isDay ? "container" : "container img"}>
         <div id="search">
           <input
             type="search"

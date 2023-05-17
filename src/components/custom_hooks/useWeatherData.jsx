@@ -13,6 +13,7 @@ function useWeatherData() {
     description: "",
     icon: "",
     forecastData: "",
+    isDay: 1,
   });
 
   const handleChange = (event) => {
@@ -47,6 +48,7 @@ function useWeatherData() {
           description: res.current.condition.text,
           icon: res.current.condition.icon,
           forecastData: res.forecast.forecastday,
+          isDay: res.current.is_day,
         });
       }
     } catch (e) {
@@ -62,6 +64,7 @@ function useWeatherData() {
         tempMaxF: "NaN",
         description: "",
         icon: "",
+        isDay: 1,
         forecastData: "NaN",
       });
     }
