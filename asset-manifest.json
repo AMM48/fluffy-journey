@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fluffy-journey/static/css/main.ef9282cf.css",
-    "main.js": "/fluffy-journey/static/js/main.cac36163.js",
+    "main.js": "/fluffy-journey/static/js/main.60458402.js",
     "static/media/nigh-clouds.png": "/fluffy-journey/static/media/nigh-clouds.a68ca65ce740466f037e.png",
     "static/media/about.png": "/fluffy-journey/static/media/about.adc3c15adab5d603231d.png",
     "index.html": "/fluffy-journey/index.html",
     "main.ef9282cf.css.map": "/fluffy-journey/static/css/main.ef9282cf.css.map",
-    "main.cac36163.js.map": "/fluffy-journey/static/js/main.cac36163.js.map"
+    "main.60458402.js.map": "/fluffy-journey/static/js/main.60458402.js.map"
   },
   "entrypoints": [
     "static/css/main.ef9282cf.css",
-    "static/js/main.cac36163.js"
+    "static/js/main.60458402.js"
   ]
 }
