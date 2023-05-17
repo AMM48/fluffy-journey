@@ -6,10 +6,19 @@ function Forecast(props) {
 
   return (
     <div id="forecast">
-      <h2 id="title">8 - Days Forecast</h2>
-      {forecastData.forecastData.map((data, index) => (
-        <DayData key={index} data={data} />
-      ))}
+      {props.name === "" ? (
+        <>
+          <h2 id="title">No Forecast</h2>
+          <p></p>
+        </>
+      ) : (
+        <>
+          <h2 id="title">8 - Day Forecast</h2>
+          {forecastData.forecastData.map((data, index) => (
+            <DayData key={index} data={data} />
+          ))}
+        </>
+      )}
     </div>
   );
 }
