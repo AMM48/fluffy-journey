@@ -62,6 +62,7 @@ function useWeatherData() {
         tempMaxF: "NaN",
         description: "",
         icon: "",
+        forecastData: "NaN",
       });
     }
   };

@@ -6,7 +6,6 @@ function useForecast(props) {
   }, [props.name, props.temperatureUnit]);
   const fetchData = async () => {
     try {
-      console.log(props.forcastData);
       const data = props.forecastData.slice(0, 8).map((item) => ({
         date: item.date,
         icon: item.day.condition.icon,

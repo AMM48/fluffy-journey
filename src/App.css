@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: url('../close-up-view-clouds_181624-13889.png') repeat-x center/cover;
+  background: url('../gorgeous-clouds-background-with-blue-sky-design_1017-25501.png') repeat-x center/cover;
   width: 100%;
   font-family: "Poppins", "Helvetica";
 }
@@ -40,7 +40,7 @@ body::before {
 .container {
   /* border-radius: 2rem; */
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(5px); */
   /* box-shadow: 0 0 10px rgb(255, 255, 255); */
   padding: 3rem;
   width: 100%;
@@ -59,8 +59,8 @@ body::before {
   padding: 0.5rem 1.5rem 2rem 1.5rem;
   justify-content: space-evenly;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-  /* backdrop-filter: blur(10px); */
-  box-shadow: 0 0 10px rgb(255, 255, 255);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 8px rgb(255, 255, 255);
 }
 
 h3 {
@@ -153,8 +153,8 @@ p {
 }
 #forecast {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-  /* backdrop-filter: blur(10px); */
-  box-shadow: 0 0 10px rgb(255, 255, 255);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 8px rgb(255, 255, 255);
   min-width: 60rem;
   min-height: 12rem;
   border-radius: 2rem;
@@ -196,7 +196,9 @@ input {
   backdrop-filter: blur(10px);
   color: #fff;
 }
-
+hr {
+  width: 50%;
+}
 input:hover {
   box-shadow: 0 0 4px rgb(255, 255, 255);
 }
