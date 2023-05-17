@@ -5,12 +5,12 @@ function Navbar() {
     <nav>
       <ul>
         <li>
-          <NavLink path to="/fluffy-journey">
+          <NavLink exact to="/fluffy-journey">
             Weather
           </NavLink>
         </li>
         <li>
-          <NavLink path to="/about">
+          <NavLink exact to="/fluffy-journey/about">
             About Us
           </NavLink>
         </li>

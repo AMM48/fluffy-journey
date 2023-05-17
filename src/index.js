@@ -9,7 +9,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/fluffy-journey" element={<App />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/fluffy-journey/about" element={<About />} />
     </Routes>
   </BrowserRouter>
 );
