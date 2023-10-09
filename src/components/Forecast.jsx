@@ -13,7 +13,7 @@ function Forecast(props) {
         </>
       ) : (
         <>
-          <h2 id="title">8 - Day Forecast</h2>
+          <h2 id="title">3 - Day Forecast</h2>
           {forecastData.forecastData.map((data, index) => (
             <DayData key={index} data={data} />
           ))}
